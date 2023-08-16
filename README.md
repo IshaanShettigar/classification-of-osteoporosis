@@ -9,3 +9,5 @@ So far the implementations tested out on our private dataset have been:
 4. **VGG11** in PyTorch
 
 Looking to try various models in TensorFlow, found in `keras.applications...`
+
+[Here](https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning/) is a pretty comprehensive article on using pre-trained EffecientNet (all variants B0 to B7). 
