@@ -10,4 +10,8 @@ So far the implementations tested out on our private dataset have been:
 
 Looking to try various models in TensorFlow, found in `keras.applications...`
 
-[Here](https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning/) is a pretty comprehensive article on using pre-trained EffecientNet (all variants B0 to B7). 
+[Transfer Learning](https://www.tensorflow.org/tutorials/images/transfer_learning) article from TensorFlow.
+
+[Guide](https://www.tensorflow.org/tutorials/load_data/images) on loading and preprocessing images in Tensorflow. 
+
+[Here](https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning/) is a pretty comprehensive article on using pre-trained EffecientNet (all variants B0 to B7).  

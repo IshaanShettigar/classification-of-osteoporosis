@@ -33,3 +33,8 @@ If you are trying to use that for your own model then don't forget to upload a `
 ![image](https://github.com/IshaanShettigar/classification-of-osteoporosis/assets/77607172/61d3a5dd-f40c-4629-a927-a5f99a0ce7b9)
 
 [Here](https://keisen.github.io/tf-keras-vis-docs/api/tf_keras_vis.saliency.html) are the API docs for tf-keras-vis. 
+
+
+### GradCam VGG16 Knees
+
+
