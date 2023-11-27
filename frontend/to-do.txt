@@ -1,0 +1,3 @@
+create header
+make sure header dissappears on scroll
+footer
