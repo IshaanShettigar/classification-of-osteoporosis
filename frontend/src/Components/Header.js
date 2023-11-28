@@ -1,7 +1,7 @@
 import React from "react";
 import { AppBar, Toolbar, Box, Container, Typography, Button, Tooltip } from '@mui/material';
-import mims from '../MIMS-logo.jpg';
-import pesu from '../pesu-logo-horizontal2.png'
+import mims from '../images/MIMS-logo.jpg';
+import pesu from '../images/pesu-logo-horizontal2.png'
 const Header = () => {
     const pages = ["Paper", "Authors"]
     return (

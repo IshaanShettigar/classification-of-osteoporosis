@@ -1,3 +1,6 @@
 create header
 make sure header dissappears on scroll
 footer
+Add some cool hyperlinks to the text like they do in bonefinder
+Create cool background image
+ 
