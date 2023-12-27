@@ -1,6 +1,5 @@
 import React from "react";
 import { Typography, Container, Button } from "@mui/material";
-
 const Hero = () => {
 
     return (

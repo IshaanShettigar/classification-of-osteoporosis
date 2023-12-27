@@ -15,11 +15,29 @@ const TryNow = () => {
         width: 1,
     });
 
-    const handleFileChange = (event) => {
+    const handleFileChange = async (event) => {
         const selectedFile = event.target.files[0];
         if (selectedFile) {
-            // Handle the selected file, e.g., display its information or upload it.
-            console.log('Selected file:', selectedFile);
+            // Create a FormData object to append the file
+            const formData = new FormData();
+            formData.append('file', selectedFile);
+
+            // Use fetch to send the file to the backend
+            try {
+                const response = await fetch('http://127.0.0.1:8000/upload', {
+                    method: 'POST',
+                    body: formData,
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    console.log('File uploaded successfully:', data);
+                } else {
+                    console.error('File upload failed.');
+                }
+            } catch (error) {
+                console.error('Error uploading file:', error);
+            }
         }
     };
 
